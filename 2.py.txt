@@ -1,0 +1,8 @@
+p1 = 0; p2 = 1;
+sum = 0
+while (p2 < 4000001):
+    c = p1+p2
+    if c % 2 == 0:
+        sum += c
+    p1 = p2; p2 = c
+print sum
